@@ -1,0 +1,3 @@
+name = Tactical Lamp View
+author = Benjamin C. Lewis
+version = 1.00

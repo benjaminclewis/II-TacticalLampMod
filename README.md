@@ -1,2 +1,2 @@
 # II-TacticalLampMod
-Tactical Lamp Mod for Invisible, Inc.
+Tactical Lamp View mod for Invisible, Inc.
