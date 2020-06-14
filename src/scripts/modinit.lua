@@ -1,7 +1,6 @@
 local util = include( "modules/util" )
 
 local function init( modApi )
-	rawset(_G,"SCRIPT_PATHS",rawget(_G,"SCRIPT_PATHS") or {})
 	local dataPath = modApi:getDataPath()
 	local scriptPath = modApi:getScriptPath()
 	KLEIResourceMgr.MountPackage( dataPath .. "/anims.kwad", "data" )

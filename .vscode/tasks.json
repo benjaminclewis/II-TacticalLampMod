@@ -8,6 +8,14 @@
 			"type": "shell",
 			"command": "./build.bat",
 			"problemMatcher": []
+		},		
+		{
+			"label": "publish (dev)",
+			"type": "shell",
+			"command": "./publish.dev.bat",
+			"dependsOn": "build",
+			"problemMatcher": []
 		}
+
 	]
 }
