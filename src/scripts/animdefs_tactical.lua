@@ -261,15 +261,6 @@ local animdefs_tactical =
 		boundType = BoundType.bound_1x1_tall_med,
 	},		
 
-	decor_plastek_hall_floorlamp1 =
-	{
-		build = { "data/anims/Plastek_hall/plastek_hall_object_1x1floorlamp1.abld", "data/anims/hek/mf_noncoverpieces_1x1.abld" },
-		anims = { "data/anims/Plastek_hall/plastek_hall_object_1x1floorlamp1.adef", "data/anims/general/mf_coverpieces_1x1.adef" },
-		anim = "idle",
-		scale = 0.25,
-		boundType = BoundType.bound_1x1_med_med,
-	},	
-
 	decor_plastek_hall_bookshelf2 =
 	{
 		build = { "data/anims/Plastek_hall/plastek_hall_object_2x1bookshelf2.abld", "data/anims/bcl/mf_tallcoverpieces_1x2.abld" },

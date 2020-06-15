@@ -6,16 +6,36 @@
 		{
 			"label": "build",
 			"type": "shell",
-			"command": "./build.bat",
-			"problemMatcher": []
-		},		
+			"windows": {
+				"command": "./build.windows.bat",
+			},
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
 		{
 			"label": "publish (dev)",
 			"type": "shell",
-			"command": "./publish.dev.bat",
+			"windows": {
+				"command": "./publish.windows.dev.bat",
+			},
 			"dependsOn": "build",
 			"problemMatcher": []
+		},
+		{
+			"label": "test run",
+			"type": "shell",
+			"windows": {
+				"command": "./run.windows.bat",
+			},
+			"dependsOn": "publish (dev)",
+			"problemMatcher": [],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			}
 		}
-
 	]
 }
