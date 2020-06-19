@@ -252,7 +252,7 @@ local animdefs_tactical =
 		boundType = BoundType.bound_1x1_med_med,
 	},	
 
-	-- needs to be customized to use default cover; does not in vanilla?
+	-- needs to be customized to use default cover; does not use correct icon in vanilla (TODO: double check this)
 	decor_plastek_hall_floorlamp1 =
 	{
 		build = { "data/anims/Plastek_hall/plastek_hall_object_1x1floorlamp1.abld", "data/anims/general/mf_coverpieces_1x1.abld" },
