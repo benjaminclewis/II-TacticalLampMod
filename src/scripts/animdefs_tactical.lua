@@ -216,15 +216,6 @@ local animdefs_tactical =
 		boundType = BoundType.bound_1x1_tall_med,
 	},
 
-	decor_plastek_office_floorlamp1 =
-	{
-		build = { "data/anims/Plastek_office/plastek_office_object_1x1floorlamp1.abld", "data/anims/hek/mf_noncoverpieces_1x1.abld" },
-		anims = { "data/anims/Plastek_office/plastek_office_object_1x1floorlamp1.adef", "data/anims/hek/mf_noncoverpieces_1x1.adef" },
-		anim = "idle",
-		scale = 0.25,
-		boundType = BoundType.bound_1x1_med_med,
-	},
-
 	decor_plastek_psilab_cabinet1 =
 	{
 		build = { "data/anims/Plastek_psilab/plastek_psilab_object_1x1cabinet1.abld", "data/anims/bcl/mf_tallcoverpieces_1x1.abld" },
@@ -247,16 +238,6 @@ local animdefs_tactical =
 	{
 		build = { "data/anims/Plastek_Lab/plastek_lab_object_1x1cabinet1.abld", "data/anims/bcl/mf_tallcoverpieces_1x1.abld" },
 		anims = { "data/anims/Plastek_Lab/plastek_lab_object_1x1cabinet1.adef", "data/anims/bcl/mf_tallcoverpieces_1x1.adef" },
-		anim = "idle",
-		scale = 0.25,
-		boundType = BoundType.bound_1x1_med_med,
-	},	
-
-	-- needs to be customized to use default cover; does not use correct icon in vanilla (TODO: double check this)
-	decor_plastek_hall_floorlamp1 =
-	{
-		build = { "data/anims/Plastek_hall/plastek_hall_object_1x1floorlamp1.abld", "data/anims/general/mf_coverpieces_1x1.abld" },
-		anims = { "data/anims/Plastek_hall/plastek_hall_object_1x1floorlamp1.adef", "data/anims/general/mf_coverpieces_1x1.adef" },
 		anim = "idle",
 		scale = 0.25,
 		boundType = BoundType.bound_1x1_med_med,
