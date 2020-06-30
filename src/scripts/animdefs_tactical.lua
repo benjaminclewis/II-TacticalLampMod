@@ -12,6 +12,16 @@ local animdefs_tactical =
 {
 	-- Non-cover and Sightblock tactical DECOR --
 
+	-- this glass wall incorrectly has cover icons in vanilla
+    publicterminal_glasswall1 =
+    {
+        build = { "data/anims/Unique_publicterminal/publicterminal_glasswall1.abld" },
+        anims = { "data/anims/Unique_publicterminal/publicterminal_glasswall1.adef" },
+        anim = "idle",
+        scale = 0.25,
+        boundType = BoundType.Wall,
+    }, 
+	
 	-- FTM OFFICE --------------------------------------------------------------------------------------------
 	
 	ftm_hall_plant1=
