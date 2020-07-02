@@ -181,15 +181,6 @@ local animdefs_tactical =
 
 	-- SEIKAKU LAB ---------------------------------------------------------------------------------------------
 
-	decor_sk_office_lamp1 =
-	{
-		build = { "data/anims/Seikaku_office/seikaku_office_object_1x1lamp.abld", "data/anims/hek/mf_noncoverpieces_1x1.abld" },
-		anims = { "data/anims/Seikaku_office/seikaku_office_object_1x1lamp.adef", "data/anims/hek/mf_noncoverpieces_1x1.adef" },
-		anim = "idle",
-		scale = 0.25,
-		boundType = BoundType.bound_1x1_tall_med,
-	},	
-
 	decor_sk_office_shelf1 =
 	{
 		build = { "data/anims/Seikaku_office/seikaku_office_object_1x1shelf1.abld", "data/anims/bcl/mf_tallcoverpieces_1x1.abld" },
@@ -271,10 +262,11 @@ local animdefs_tactical =
 		boundType = BoundType.bound_2x1_tall_med,
 	},	
 
+	-- vanilla uses 1x1 cover icon, but this anim is neither 1x1 nor cover.
 	holdingcell_1x1_celldoor1 =
 	{                            
-		build = { "data/anims/Unique_holdingcell/holdingcell_1x1_celldoor1.abld", "data/anims/hek/mf_noncoverpieces_1x1.abld"},
-		anims = { "data/anims/Unique_holdingcell/holdingcell_1x1_celldoor1.adef", "data/anims/hek/mf_noncoverpieces_1x1.adef"},
+		build = { "data/anims/Unique_holdingcell/holdingcell_1x1_celldoor1.abld" },
+		anims = { "data/anims/Unique_holdingcell/holdingcell_1x1_celldoor1.adef" },
 		anim = "idle",
 		scale = 0.25,
 		boundType = BoundType.Wall,
